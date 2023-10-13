@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class QuickSort {
 
     // Quick Sort = moves smaller elements to left of the pivot.

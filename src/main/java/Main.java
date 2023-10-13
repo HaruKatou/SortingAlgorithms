@@ -4,7 +4,8 @@ public class Main {
 
         //MergeSort.mergeSort(array);
         //QuickSort.quickSort(array, 0, array.length-1);
-        SelectionSort.selectionSort(array);
+        //SelectionSort.selectionSort(array);
+        InsertionSort.insertionSort(array);
 
         for(int i : array) {
             System.out.print(i + " ");
