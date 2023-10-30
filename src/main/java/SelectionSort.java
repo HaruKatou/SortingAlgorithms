@@ -9,6 +9,7 @@ public class SelectionSort {
     //                  Worst case O(n^2)
 
     // Space Complexity: O(1)
+    // *Unstable*
     public static void selectionSort(int[] array) {
         for(int i = 0; i < array.length-1; i++) {
             int min_idx = i;

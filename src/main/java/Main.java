@@ -6,7 +6,7 @@ public class Main {
         //QuickSort.quickSort(array, 0, array.length-1);
         //SelectionSort.selectionSort(array);
         //InsertionSort.insertionSort(array);
-        BubbleSort.bubbleSort(array);
+        BubbleSort.flaggedbubbleSort(array);
 
         for(int i : array) {
             System.out.print(i + " ");

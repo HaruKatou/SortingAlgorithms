@@ -10,6 +10,7 @@ public class InsertionSort {
     //                  Worst case O(n^2)
 
     // Space Complexity = O(1)
+    // *Stable*
     public static void insertionSort(int[] array) {
         for(int i = 1; i < array.length; i++) {
             int key = array[i];

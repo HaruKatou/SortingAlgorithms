@@ -9,6 +9,7 @@ public class QuickSort {
     //                  Worst case O(n^2) if sorted already
 
     // Space Complexity = O(log n) due to recursion.
+    // *Unstable*
     public static void quickSort(int[] array, int start, int end) {
         if (end <= start)
             return;
